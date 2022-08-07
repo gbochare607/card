@@ -1,0 +1,35 @@
+*{
+
+box-sizing: border-box;
+
+}
+.col{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+
+}
+.card{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    border: 1px solid black;
+
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+}
+.card:hover{
+    background-color: rgb(186, 50, 16);
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .col{
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+}
